@@ -1,0 +1,46 @@
+
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+table {
+    background: white;
+}
+
+.table thead {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-primary, .btn-warning, .btn-danger {
+    margin-right: 5px;
+}
+
+form .form-control, form .form-select {
+    border-radius: 8px;
+}
